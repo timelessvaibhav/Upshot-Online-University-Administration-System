@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    font-family: 'Acme', sans-serif;
+}
+
+/* Navigation bar: List Styling */
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    color:whitesmoke;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.4rem;
+}
+#home::before{
+    content: "";
+    background: url(https://www.rushdah-ir.com/wp-content/uploads/2018/03/sliders1-1.jpg) no-repeat center center/cover;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+}
+.center{
+    text-align: center;
+}
+.hprimary{
+    font-family: 'Acme', sans-serif;
+}
+.hsecondary{
+    font-size: 1.5rem;
+    font-family: 'Acme', sans-serif;
+}
+#services{
+    margin:  55px 25px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Acme', sans-serif;
+}
+#services .box{
+    border: 2px solid black;
+    font-family: 'Acme', sans-serif;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 18px;
+    color: white;
+    background: url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/84366486/original/c490739223326be0ddccbf3bd1d7381ce7926fa5/do-stunning-background-videos-for-your-website.png);
+}
+.inputfield{
+    display: flex;
+}
+.inputfield input{
+    margin: 20px 525px;
+    border-radius: 23px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#studentlogin{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 715px;
+    margin-top: 65px;
+    padding: 15px;
+    
+}
+#adminlogin{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 690px;
+    margin-top: 65px;
+    padding: 15px;
+    
+}
+#login{
+    background: url(https://www.capcitycreative.ca/wp-content/uploads/2017/01/slider-background.jpeg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+#formbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    border-radius: 23px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+
+}
+@media(max-width: 450px) and (min-width:300px){
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    
+    #services{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #services .box{
+        margin: 10px 10px;
+    }
+    #home{
+        font-size: 1.35rem;
+        height: 500px;
+        padding: 0px 23px;
+        
+    }
+    #home::before{
+        height: 80%;
+        width: 100%;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    #login{
+        overflow: hidden;
+    }
+    
+}
+
+@media only screen and (max-width: 690px) and (min-width:451px){
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    
+    
+    
+    #services{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #services .box{
+        margin: 10px 10px;
+    }
+    #home{
+        font-size: 1.2rem;
+        height: 275px;
+        padding: 0px 23px;
+        
+    }
+    #home::before{
+        height: 85%;
+        width: 100%;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    #login{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 760px) and (min-width:691px){
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    
+    
+    
+    #services{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #services .box{
+        margin: 10px 10px;
+    }
+    #home{
+        font-size: 1.2rem;
+        height: 270px;
+        padding: 0px 23px;
+        
+    }
+    #home::before{
+        height: 85%;
+        width: 100%;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    #login{
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 870px) and (min-width:761px){
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    
+    
+    
+    #services{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #services .box{
+        margin: 10px 10px;
+    }
+    #home{
+        font-size: 1.4rem;
+        height: 700px;
+        padding: 0px 23px;
+        
+    }
+    #home::before{
+        height: 80%;
+        width: 100%;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    #login{
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width:871px){
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    
+    
+    
+    #services{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #services .box{
+        margin: 10px 10px;
+    }
+    #home{
+        font-size: 1.2rem;
+        height: 550px;
+        padding: 0px 23px;
+        
+    }
+    #home::before{
+        height: 85%;
+        width: 100%;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    #login{
+        overflow: hidden;
+    }
+}
+
+
+
