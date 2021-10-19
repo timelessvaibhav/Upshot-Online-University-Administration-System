@@ -6,11 +6,11 @@ the website has been built in completely **Responsive web design**
 
 ## Website implementation
 
-Front end: HTML, CSS
+**Front end:** HTML, CSS
 
-Back end: PHP, MySQL
+**Back end:** PHP, MySQL
 
-Server: XAMPP Server
+**Server:** XAMPP Server
 
 ## Website functionalities
 
