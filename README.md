@@ -26,7 +26,17 @@ Administrator can **change their password**.
 
 **For Students**
 
-Students can **search their result** using their name and Student id provided by the administrator
+Students can **search their result**ing their name and Student id provided by the administrator
+
+## Database Schema
+
+#### Database name: UpShot
+
+#### Database Tables:
+
+a table **users** with three columns including **id** as an auto incrementing primary key along with columns **username** and **password** to store username and password of registered users.
+
+a table **students** with 11 columns including **id** as an auto incrementing primary key along with columns **Student id**, **Department**, **Name**, **Semester**, **Examination**, to store the corresponding details and **Subject 1** , **Subject 2** , **Subject 3**,  **Subject 4**,  **Subject 5** to store marks in 5 subjects respectively. 
 
 ## Landing Section
 <img src="https://github.com/timelessvaibhav/Upshot-Online-school-administration-system./blob/main/Preview/Landing%20Page.png"> 
