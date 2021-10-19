@@ -1,7 +1,7 @@
 # Upshot-Online-school-administration-system.
 
 A **full stack** website with **user authentication system**, wherein a registered administrator can **create, read, update and delete** student records. Moreover, students can also access their results using login credentials provided by the administrator.
-the website has been built in completely **Responsive web design**
+the website has been built on a completely **Responsive web design**
 
 
 ## Website implementation
